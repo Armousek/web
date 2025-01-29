@@ -1,0 +1,54 @@
+.main
+{
+    background-image: url(../images/Dopis\ od\ Je§¡çka\ \(1\).jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -105px;
+    padding: 10px;
+    height: 700px;
+    text-align: center;
+}
+
+//tlacitka na uvodni strance
+
+.button__text
+{
+   font-size: 20px;
+   color: rgb(224,227,226);
+   text-decoration: none;
+}
+
+.button
+{
+   background: rgb(150, 0, 0);
+   border-radius: 20px;
+   position: relative;
+   top: 230px;
+   left: 535px;
+   height: 60px;
+   width: 250px;
+   margin: 40px;
+   cursor: pointer;
+   display: block;
+   text-align: center;
+   transition: .3s;
+}
+
+.button:hover
+{
+   transform: scale(1.1);
+}
+
+h1
+{
+   color: black;
+   text-align: center;
+   transform: translate(-20px, 200px);
+}
+
+h2
+{
+   color: black;
+   text-align: center;
+   transform: translate(-20px, 200px);
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>darek s prekvapenim</title>
+        
+        <link rel="stylesheet" href="styles/style-general.scss">
+        <link rel="stylesheet" href="styles/style-dospis-prekvapeni.scss">
+        <link rel="stylesheet" href="styles/style-formular.scss">
+    
+    </head>
+
+    <body>
+    
+        <header>
+            <nav>
+                <ul>
+                    
+                    <a class="logo" href="index.html">
+                        <img class="logo__img" src="images/logo vanocni svet bez textu Background Removed.png" alt="logo vanocni svet">
+                    </a>
+                    
+                    <li class="nav__item">
+                        <a class="nav__link" href="/">uvod</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a class="nav__link" href="dopis-darek.html">dopis s darkem</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a class="nav__link"href="dopis-prekvapeni.html">dopis s prekvapenim</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="pozadi">
+    
+            <div class="text nadpis">Dopis s prekvapenim</div>
+            <div class="text formular">Vyplnte formular</div>
+            <div class="text papir">Vyberte dekor papiru</div>
+            <div class="text obalka">Vyberte dekor obalky</div>
+            
+            <form method="post">
+                
+                <div class="container jedna">
+                    <div class="entryarea">
+                        <input type="text" required>
+                        <div class="labelline">Jmeno obdarovaneho</div>    
+                    </div>
+                </div>
+                
+                <div class="container dva">
+                    <div class="entryarea">
+                        <input type="text">
+                        <div class="labelline">Jmeno nejlepsiho kamarada</div>    
+                    </div>
+                </div>
+                
+                <div class="container tri">
+                    <div class="entryarea">
+                        <input type="text">
+                        <div class="labelline">Jmeno domaciho mazlicka</div>    
+                    </div>
+                </div>
+                
+                <div class="container ctyri">
+                    <div class="entryarea">
+                        <input type="text">
+                        <div class="labelline">Jmeno sourozence</div>    
+                    </div>
+                </div>
+                
+                <br>    
+                    
+                <div class="tlacitko p">
+                    <input type="submit" value="Odeslat">
+                </div>
+                
+                <div class="wraper">    
+                        
+                    <div class="radio__buttons">
+                        
+                        <label class="custom__radio">
+                            <input type="radio" name="papir" id="papir1" require>
+                                
+                            <div class="content content__papir">
+                                
+                                <div class="papir__img">
+                                    <img src="images/Dopis1.jpg">
+                                </div>
+                                <h2>c.1</h2>
+                                
+                            </div>
+                        </label>
+                        
+                        <label class="custom__radio">
+                            <input type="radio" name="papir" id="papir2" required>
+                                
+                            <div class="content content__papir">
+                                
+                                <div class="papir__img">
+                                    <img src="images/Dopis2.jpg">
+                                </div>
+                                <h2>c.2</h2>
+                                
+                            </div>
+                        </label>
+                        
+                        <label class="custom__radio">
+                            <input type="radio" name="papir" id="papir3" required>
+                                
+                            <div class="content content__papir">
+                                
+                                <div class="papir__img">
+                                    <img src="images/Dopis_3.jpg">
+                                </div>
+                                <h2>c.3</h2>
+                                
+                            </div>
+                        </label>
+                        
+                        <label class="custom__radio">
+                            <input type="radio" name="obalka" id="obalka1" require>
+                                
+                            <div class="content content__obalka">
+                                
+                                <div class="obalka__img">
+                                    <img src="images/obalka1.png">
+                                </div>
+                                <h2>c.1</h2>
+                                
+                            </div>
+                        </label>
+                        
+                        <label class="custom__radio">
+                            <input type="radio" name="obalka" id="obalka2" required>
+                                
+                            <div class="content content__obalka">
+                                
+                                <div class="obalka__img">
+                                    <img src="images/obalka2.png">
+                                </div>
+                                <h2>c.2</h2>
+                                
+                            </div>
+                        </label>
+                        
+                        <label class="custom__radio">
+                            <input type="radio" name="obalka" id="obalka3" required>
+                                
+                            <div class="content content__obalka">
+                                
+                                <div class="obalka__img">
+                                    <img src="images/obalka3.png">
+                                </div>
+                                <h2>c.3</h2>
+                                
+                            </div>
+                        </label>
+                        
+                    </div>
+                    
+                </div>
+            
+            </form>
+        
+        </section>
+        
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>

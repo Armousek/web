@@ -1,0 +1,115 @@
+//Nadpis
+
+.nadpis
+{
+   text-align: center;
+   font-size: 5em;
+   top: 20px;
+}
+
+//Vyplnte formular
+
+.formular
+{
+   left: 250px;
+   top: 120px;
+}
+
+//papir
+
+.papir
+{
+   left: 250px;
+   top: 720px;
+}
+
+//obalka
+
+.obalka
+{
+   left: 970px;
+   top: 688px;
+}
+
+//darek 
+
+.dar
+{
+    text-align: center;
+    top: 1100;
+}
+
+//rozmisteni formulare
+
+.jedna  
+{
+  position: relative;
+  top: -60px;
+}
+
+.dva
+{
+  position: relative;
+  top: 15px;
+}
+
+.tri
+{
+  position: relative;
+  top: 90px;
+}
+
+.ctyri
+{
+  position: relative;
+  top: 165px;
+}
+.p 
+{
+   top: 210px;
+}
+
+//produkty
+
+.content__darek
+{
+    top: 550px;
+}
+
+.content__papir
+{
+    top: 500px;
+    left: px;
+}
+
+.content__obalka
+{
+    top: 540;
+    left: 25;
+}
+
+.darek__img
+{
+    width: 230px;
+    height: 200px;
+}
+
+.darek__img img
+{
+    width: 230px;
+    height: 200px;
+}
+
+.darek__img:hover
+{
+    border: 4px solid rgb(150, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom__radio input:checked + .content .darek__img
+{
+    border: 4px solid rgb(150, 0, 0);
+    border-radius: 5px;
+}
+
